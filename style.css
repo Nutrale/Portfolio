@@ -1,0 +1,488 @@
+body {
+  margin: 0;
+  background:black;
+}
+
+.page1 {
+  background-color: #eaa829;
+  font-family: "Changa One";
+  position: relative;
+  padding: 25px;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color:black;
+
+}
+
+.logof {
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  font-size: 6.25rem;
+  margin: 0;
+  font-family: "Changa One";
+}
+
+h3 {
+  text-align: center;
+  font-size: 3.75rem;
+  border: 7px solid black;
+  border-radius: 1.25rem;
+  width: 400px;
+  margin: auto;
+  font-family: "Changa One";
+}
+
+h3 {
+  transition: all 0.4s ease;
+}
+
+h3:hover {
+  color: white;
+  transform: scale(1.2);
+}
+
+h4 {
+  text-align: center;
+  font-size: 2.8125rem;
+  font-family: "Changa One";
+}
+h2 {
+  margin-top: 0;
+  font-size:8rem;
+}
+
+.rs {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.logo1 {
+  width: 4.0625rem;
+  height: 4.25rem;
+  margin-right: 10px;
+}
+
+.logo2 {
+  width: 30%;
+  max-width: 400px;
+  position: absolute;
+  bottom:0;
+  right: 0;
+  transform: rotate(-30deg);
+}
+
+.email {
+  text-align: left;
+  font-size: 1.5625rem;
+  font-family: "Changa One";
+}
+
+.page2 {
+  margin-bottom: 100px;
+  font-family: "Changa One";
+  display: flex;
+  background: #000000;
+  gap: 50px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  color: white;
+}
+.prop{
+  display: flex;
+  flex-direction:column;
+}
+
+.prop, p{
+  margin-left: 30px;
+}
+
+.titre2 {
+  text-align: left;
+  font-size: 5rem;
+  -webkit-text-stroke: 5px;
+  -webkit-text-stroke-color: #eaa829;
+  color: black;
+}
+
+.img1 {
+  box-sizing: border-box;
+  border: 3px solid #eaa829;
+  border-radius: 3.125rem;
+  margin-right: 30px;
+  position: sticky;
+  max-width: 400px;
+  width: auto;
+  
+}
+.image1{
+  margin: auto;
+}
+
+.texte1 {
+  font-size: 2.5rem;
+}
+
+
+
+.teimg1 {
+display: flex;
+}
+
+.page3 {
+  background: #000000;
+  font-family: "Changa One";
+  color: white;
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.titre3 {
+  text-align: center;
+  font-size: 5rem;
+  -webkit-text-stroke: 5px;
+  -webkit-text-stroke-color: #eaa829;
+  color: black;
+}
+
+.texte2 {
+  font-size: 2.5rem;
+}
+
+.img2 {
+  position: absolute;
+  z-index: -1;
+  max-width: 500px;
+  width: auto;
+  box-sizing: border-box;
+  border: 3px solid #eaa829;
+  border-radius: 50px;
+}
+.image2{
+  display: flex;
+  justify-content: center;
+}
+
+.page4 {
+  height: 67.5rem;
+  margin-top: 450px;
+  background: #000000;
+  font-family: "Changa One";
+  color:white;
+  z-index: 2;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.titre4 {
+  font-size: 5rem;
+  text-align: right;
+  -webkit-text-stroke: 5px;
+  -webkit-text-stroke-color: #eaa829;
+  color: black;
+}
+
+.texte3 {
+  font-size: 2.5rem;
+}
+
+.page5 {
+  background: #eaa829;
+  font-family: "Changa One";
+
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+}
+
+.titre5 {
+  font-size: 80pt;
+  text-align: center;
+  color: black;
+}
+
+.logoComp {
+  display: flex;
+  justify-content: space-around;
+  font-size: 50px;
+}
+
+.logoComp2 {
+  display: flex;
+  justify-content: space-around;
+  font-size: 50px;
+}
+
+.pour {
+  display: flex;
+  justify-content: space-around;
+  font-size: 40pt;
+  text-align: center;
+}
+
+.pour2 {
+  display: flex;
+  justify-content: space-around;
+  font-size: 40pt;
+  text-align: center;
+}
+
+.page6 {
+  background: #000000;
+
+  flex: none;
+  order: 5;
+  flex-grow: 0;
+}
+
+.titre6 {
+  font-size: 80pt;
+  font-family: "Changa One";
+  text-align: right;
+  -webkit-text-stroke: 5px;
+  -webkit-text-stroke-color: #eaa829;
+  color: black;
+}
+
+/* A revoir petit bug d'affichage animation*/
+
+.logoDoc {
+  display: flex;
+  justify-content: space-around;
+  font-size: 50px;
+}
+
+.SAE {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2.5rem;
+  color: #eaa829;
+  font-family: "Changa One";
+}
+
+.page {
+  
+  padding: 0px;
+  margin: 0px;
+  width: auto;
+  height: 80vh;
+}
+
+.logo1 {
+  transition: all 0.4s ease;
+}
+
+.logo1:hover {
+  color: white;
+  transform: scale(1.2);
+}
+
+.logo2 {
+  transition: all 0.4s ease;
+}
+
+.logo2:hover {
+  color: white;
+  transform: scale(1.2);
+}
+
+
+.checkbox {
+  display: none;
+}
+
+.button {
+  position: relative;
+  background-color: #eaa829;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  position: fixed;
+  top: 5vh;
+  right: 5vw;
+  z-index: 2000;
+  box-shadow: 0 1rem 3rem black;
+  text-align: center;
+  cursor: pointer;
+}
+
+.background {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  position: fixed;
+  top: 5.5vh;
+  right: 5.5vw;
+  background-image: radial-gradient(#eaa829, black);
+  z-index: 1000;
+
+  transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.nav {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: -60vw;
+  z-index: 1500;
+  opacity: 0;
+  width: 0;
+  transition: all 0.8s;
+  font-family: "Changa One";
+}
+
+.list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  list-style: none;
+  text-align: center;
+  width: 100%;
+}
+
+.item {
+  margin: 1rem;
+  font-size: 36px;
+}
+
+.checkbox:checked ~ .background {
+  transform: scale(80);
+}
+.checkbox:checked ~ .nav {
+  opacity: 1;
+  width: 100%;
+  right: 0;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.icon,
+.icon::before,
+.icon::after {
+  width: 3rem;
+  height: 2px;
+  background-color: black;
+  display: inline-block;
+}
+
+.icon::before,
+.icon::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  transition: all 0.2s;
+}
+
+.icon::before {
+  top: -0.8rem;
+}
+.icon::after {
+  top: 0.8rem;
+}
+
+.button:hover icon:before {
+  top: -1rem;
+}
+.button:hover icon::after {
+  top: 1rem;
+}
+
+.checkbox:checked + .button .icon {
+  background-color: transparent;
+}
+
+.checkbox:checked + .button .icon::before {
+  top: 0;
+  transform: rotate(135deg);
+}
+.checkbox:checked + .button .icon::after {
+  top: 0;
+  transform: rotate(-135deg);
+}
+
+
+
+.titre6.5 {
+  color:#eaa829;
+  font-family: "Changa One";
+  font-size: 30px;
+  font-size: 2.5rem;
+  color: #eaa829;
+  font-family: "Changa One";
+}
+
+/*A revoir*/
+
+}
+form {
+  max-width: 420px;
+  margin: 50px auto;
+}
+
+.feedback-input {
+  color: white;
+  font-family: "Changa One";
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border: 2px solid #eaa829;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.feedback-input:focus {
+  border: 2px solid #eaa829;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize: vertical;
+}
+
+[type="submit"] {
+  font-family: "Changa One";
+  width: 100%;
+  background: black;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: white;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.5s;
+  margin-top: -4px;
+  font-weight: 700;
+}
+[type="submit"]:hover {
+  background: #eaa829;
+}
